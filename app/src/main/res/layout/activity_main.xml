@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:id="@+id/linearLayout_parent"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/co_ordinated_layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+             android:id="@+id/show_snackbar"
+             android:text="show snackbar"
+             android:textColor="#000000"
+             android:textSize="12dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+        <Button
+
+            android:id="@+id/change_snackbar_text_color"
+            android:text="Show SnackBar with Custom Colors"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/snackbar_in_parent_layout"
+            android:text="snackbar with actions"
+            android:textColor="#000000"
+            android:textSize="12dp"
+
+
+            />
+
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+  </LinearLayout>
