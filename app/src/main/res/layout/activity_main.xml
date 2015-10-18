@@ -27,7 +27,7 @@
         <Button
 
             android:id="@+id/change_snackbar_text_color"
-            android:text="Show SnackBar with Custom Colors"
+            android:text="Change SnackBar Background and text Color"
             android:textColor="#000000"
             android:textSize="12dp"
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/snackbar_in_parent_layout"
-            android:text="snackbar with actions"
+            android:text="snackbar on Parent Layout"
             android:textColor="#000000"
             android:textSize="12dp"
 
